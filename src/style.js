@@ -57,7 +57,7 @@ const style = StyleSheet.create({
     lineTemp:{
         flexDirection:'row'
     },
-    infoColunm:{
+    infoColumn:{
         marginLeft:15,
         alignItems:'center'
     },

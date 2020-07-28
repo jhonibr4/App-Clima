@@ -31,6 +31,7 @@ export default class AppClima extends Component {
     kelvin_max: 0,
     kelvin_min: 0,
     kelvin_temp: 0,
+    kelvin_sens: 0,
     temp_max: 0,
     temp_min: 0,
     temp: 0,
@@ -86,10 +87,7 @@ export default class AppClima extends Component {
 
     );
     var that = this;
-
-
     var data = moment()
-
       .format('DD/MM/YYYY');
 
     that.setState({ data: data });
@@ -111,10 +109,7 @@ export default class AppClima extends Component {
     else if (this.state.descricao === 'few clouds') {
       return <Image source={CeuFechado} style={{ width: 45, height: 45 }} />
     }
-    else if (this.state.descricao === 'drizzle') {
-      return <Image source={Chuva} style={{ width: 45, height: 45 }} />
-    }
-    else if (this.state.descricao === 'shower rain') {
+    else if (this.state.descricao === 'drizzle' || 'shower rain') {
       return <Image source={Chuva} style={{ width: 45, height: 45 }} />
     }
     else if (this.state.descricao === 'rain') {
