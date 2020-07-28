@@ -123,8 +123,6 @@ export default class AppClima extends Component {
     }
     else if (this.state.descricao === 'scattered clouds') {
       return <Image source={Nuvens} style={{ width: 45, height: 45 }} />
-
-
     }
     else {
       return <Image source={Neblina} style={{ width: 45, height: 45 }} />
@@ -146,7 +144,7 @@ export default class AppClima extends Component {
           </View>
           <View style={style.lineTemp}>
             <Text style={style.temp}>{this.state.temp}º</Text>
-            <View style={style.infoColunm}>
+            <View style={style.infoColumn}>
               <this.MostrarIcone />
               <Text style={style.tempMaxMin} >Max: {this.state.temp_max}º</Text>
               <Text style={style.tempMaxMin}>Min: {this.state.temp_min}º</Text>
