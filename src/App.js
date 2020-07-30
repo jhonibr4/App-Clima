@@ -80,9 +80,7 @@ export default class AppClima extends Component {
         )
       },
       {
-        enableHighAccuracy: true,
-        timeout: 2000,
-        
+
       }
 
     );
