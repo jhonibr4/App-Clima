@@ -10,3 +10,5 @@ API:
 Ferramentas Utilizadas:
 - React Native
 - JavaScript
+
+<img src='./assets/app.jpg'/>
