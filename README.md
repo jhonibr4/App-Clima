@@ -11,4 +11,4 @@ Ferramentas Utilizadas:
 - React Native
 - JavaScript
 
-<img src='./assets/app.jpg'/>
+<img src='./assets/app.jpg' style={{height: 50%}}/>
