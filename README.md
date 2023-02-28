@@ -5,7 +5,7 @@
 Aplicativo que disponibiliza informação sobre o clima baseado na localidade do seu dispositivo móvel
 
 API:
- OpenWeather
+- OpenWeather
 
 Ferramentas Utilizadas:
 - React Native
